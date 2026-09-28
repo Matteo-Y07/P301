@@ -41,6 +41,7 @@ class ForgotPassword
             <label for="email">Votre adresse email :</label>
             <input type="email" name="email" id="email" required>
             <button type="submit">Envoyer le lien</button>
+            <a href="javascript:history.back()">Retour</a>
         </form>
         <?php
     }
